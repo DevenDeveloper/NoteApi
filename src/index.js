@@ -20,7 +20,7 @@ app.get("/", (req, res) =>{
     res.send("Notes API From CheezyCode");
 });
 
-const PORT = process.env.PORT || 500;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
